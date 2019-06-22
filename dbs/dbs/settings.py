@@ -47,17 +47,9 @@ AUTH_USER_MODEL = 'users.CustomUser'
 LOGIN_REDIRECT_URL =  'home'
 LOGOUT_REDIRECT_URL = 'home'
 CRISPY_TEMPLATE_PACK =  'bootstrap4'
-<<<<<<< HEAD
 SESSION_ENGINE = 'django_php_bridge.backends.db'
 SESSION_COOKIE_NAME = 'PHPSESSID'
 LOGIN_URL = 'Login-form/user_auth.php'
-=======
-# SESSION_ENGINE = 'django_php_bridge.backends.db'
-# SESSION_COOKIE_NAME = 'PHPSESSID'
-# LOGIN_URL = 'C:/xampp/htdocs/test/Login-Form/user_auth.php'
-
-
->>>>>>> 111050a013d11558b6d9c2a11296b81feb2be17d
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
